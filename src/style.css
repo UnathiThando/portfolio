@@ -1,0 +1,118 @@
+body {
+  font-family: "Anonymous Pro", Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+h1 {
+  font-weight: bold;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.name {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 120px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.nav-link {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+footer {
+  color: #fcfcfc;
+  background-color: black;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+i {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+i:hover {
+  color: grey;
+  cursor: pointer;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: grey;
+}
+
+.no-highlight:hover {
+  color: white;
+  cursor: default;
+}
+
+h3 {
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.bg-image {
+  object-fit: cover;
+  height: 100%;
+  max-height: 90vh;
+  margin: 0;
+}
+
+.smalltext {
+  font-size: 30px;
+}
+
+.about-section-content {
+  margin: 5px;
+}
+
+@media (max-width: 768px) {
+  footer {
+    min-width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+
+  h1 {
+    margin-top: 0;
+  }
+
+  .name {
+    font-size: 68px;
+  }
+
+  .smalltext {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 2020px) {
+  footer {
+    min-width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .name {
+    font-size: 74px;
+  }
+}
